@@ -6,7 +6,7 @@ body, div{
 }
 body{
 	/*display: flex;*/
-	background-color: #A8410E;
+	background-color: #E7E7E7;  /* /!\/!\  Le changement de couleur avec la maquette Originale est volontaire /!\ /!\/!\ */
 }
 
 .waves img{
@@ -19,7 +19,7 @@ body{
 #bottomWave{
 	transform:rotateZ(180deg);
 	position: relative;
-	top:-80px;
+	top:-180px;
 }
 
 .upSquare{
@@ -73,6 +73,7 @@ body{
 	margin:0px;
 }
 .middleContainer{
+	background-color: #A8410E;
 	height: 100%;
 	display: flex;
 	flex-direction: row;
@@ -80,7 +81,7 @@ body{
 	align-items: flex-start;
 	justify-content: space-between;
 	position: relative;
-	top:-50px;
+	top:-100px;
 	z-index: -2;
 	
 }
@@ -94,7 +95,8 @@ body{
 	height: 100%;
 	width: 47.5%;
 	margin-left: 13px;
-	padding-bottom: 114px;
+	padding-bottom: 164px;
+	padding-top:50px;
 }
 
 
@@ -107,6 +109,8 @@ body{
 	height: 100%;
 	width: 47.5%;
 	margin-right: 13px;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 .title h2{
@@ -156,4 +160,21 @@ h4{
 }
 #bottomListUnivers {
 	margin-bottom: 0px;
+}
+@media(max-width:767px){
+	
+}
+@media(min-width:768px){
+	
+}
+@media(min-width:992px){
+	
+}
+@media(min-width:1200px){
+
+	body{
+		display:flex;
+		max-width: 850px;
+		flex-flow: column;
+	}
 }
