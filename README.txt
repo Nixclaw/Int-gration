@@ -1,0 +1,1 @@
+Il y a eu quelques changements par rapport au CV original, notamment au niveau des couleurs et de la forme des vagues, et quelques petits détails, juste pour dire qu'ils étaient volontaires.
